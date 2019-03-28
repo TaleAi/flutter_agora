@@ -1,0 +1,45 @@
+package com.ninefrost.agora
+
+/***
+
+ **/
+object Constant {
+    val CREATE_AGORA_ENGINE = "createAgoraEngine"
+    val JOIN_CHANNEL = "joinChannel"
+    val JOIN_CHANNEL_WITH_TOKEN = "joinChannelWithToken"
+    val ENABLE_LASTMILE_TEST = "enableLastmileTest"
+    val DISABLE_LASTMILE_TEST = "disableLastmileTest"
+    val LEAVE_CHANNEL = "leaveChannel"
+    val SET_CLIENT_ROLE = "setClientRole"
+    val ENABLE_AUDIO_VOLUME_INDICATION = "enableAudioVolumeIndication"
+    val ENABLE_AUDIO = "enableAudio"
+    val DISABLE_AUDIO = "disableAudio"
+    val SET_ENABLE_SPEAKERPHONE ="setEnableSpeakerphone"
+    val MUTE_LOCAL_AUDIO_STREAM = "muteLocalAudioStream"
+    val MUTE_ALL_REMOTE_AUDIO_STREAMS = "muteAllRemoteAudioStreams"
+    val MUTE_REMOTE_AUDIO_STREAM = "muteRemoteAudioStream"
+    val SET_DEFAULT_AUDIO_ROUTE_TO_SPEAKERPHONE = "setDefaultAudioRouteToSpeakerphone"
+    val CREATE_DATA_STREAM = "createDataStream"
+    val SEND_STREAM_MESSAGE = "sendStreamMessage"
+    val GET_SDK_VERSION = "getSdkVersion"
+    val START_AUDIO_MIXING = "startAudioMixing"
+    val ADJUST_AUDIOMIXING_VOLUME = "adjustAudioMixingVolume"
+    val GET_AUDIO_MIXING_DURATION = "getAudioMixingDuration"
+    val GET_AUDIO_MIXING_CURRENTPOSITION = "getAudioMixingCurrentPosition"
+    val PAUSE_AUDIO_MIXING = "pauseAudioMixing"
+    val RESUME_AUDIO_MIXING = "resumeAudioMixing"
+    val STOP_AUDIO_MIXING = "stopAudioMixing"
+
+    val ON_JOIN_CHANNEL_SUCCESS = "onJoinChannelSuccess"
+    val ON_USER_JOINED = "onUserJoined"
+    val ON_USER_OFFLINE = "onUserOffline"
+    val ON_AUDIO_VOLUME_INDICATION = "onAudioVolumeIndication"
+    val ON_AUDIO_QUALITY = "onAudioQuality"
+    val ON_ERROR = "onError"
+    val ON_WARNING = "onWarning"
+    val ON_LEAVE_CHANNEL = "onLeaveChannel"
+    val ON_USER_MUTEAUDIO = "onUserMuteAudio"
+    val ON_CONNECTION_LOST = "onConnectionLost"
+    val ON_NETWORK_QUALITY = "onNetworkQuality"
+    val ON_LASTMILE_QUALITY = "onLastmileQuality"
+}
