@@ -2,6 +2,9 @@
 
 flutter封装的声网语音sdk，项目比较忙，文档抽空写，暂时只支持语音，视频部分不支持；
 
+### ios需要特别注意下
+在ios-Libs下需要自己拷贝进去AgoraAudioKit.framework库，这个库太大，github不让上传，有问题可以联系我
+
 ## Getting Started
 
 This project is a starting point for a Flutter
